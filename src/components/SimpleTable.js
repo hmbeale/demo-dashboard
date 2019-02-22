@@ -25,11 +25,11 @@ function createData(name, calories, fat, carbs, protein) {
 }
 
 const data = [
-  createData("Road Map", 159, 6.0, 24, 4.0),
-  createData("Parcel Map", 237, 9.0, 37, 4.3),
-  createData("Fire Districts Map", 262, 16.0, 24, 6.0),
-  createData("Voting Map", 305, 3.7, 67, 4.3),
-  createData("Water Bodies Map", 356, 16.0, 49, 3.9)
+  createData("App1", 159, 6.0, 24, 4.0),
+  createData("App2", 237, 9.0, 37, 4.3),
+  createData("App3", 262, 16.0, 24, 6.0),
+  createData("App4", 305, 3.7, 67, 4.3),
+  createData("App5", 356, 16.0, 49, 3.9)
 ];
 
 function SimpleTable(props) {
@@ -41,10 +41,10 @@ function SimpleTable(props) {
         <TableHead>
           <TableRow>
             <TableCell>Map Title</TableCell>
-            <TableCell align="right">Polygons</TableCell>
-            <TableCell align="right">Points</TableCell>
-            <TableCell align="right">Lines</TableCell>
-            <TableCell align="right">Filesize (Mb)</TableCell>
+            <TableCell align="right">Dataset1</TableCell>
+            <TableCell align="right">Dataset2</TableCell>
+            <TableCell align="right">Dataset3</TableCell>
+            <TableCell align="right">Dataset4</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
